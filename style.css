@@ -11,8 +11,8 @@ body {
 }
 
 #mandala {
-  max-width: 90vmin;
-  max-height: 90vmin;
+  max-width: 120vmin;
+  max-height: 120vmin;
   stroke-linecap: round;
 }
 
