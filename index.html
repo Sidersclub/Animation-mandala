@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mandala Méditatif</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <svg id="mandala" viewBox="0 0 500 500" width="100%" height="100%" aria-label="Mandala méditatif" role="img">
+      <defs>
+        <symbol id="petal">
+          <path d="M0,0 Q10,20 0,40 Q-10,20 0,0Z" fill="none" stroke="currentColor" stroke-width="1" />
+        </symbol>
+      </defs>
+      <!-- les éléments <use> seront injectés en JS -->
+    </svg>
+
+    <div id="controls">
+      <button id="toggleAnimation">Pause</button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
