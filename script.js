@@ -7,7 +7,7 @@ function generateMandala() {
   for (let i = 0; i < numPetals; i++) {
     const use = document.createElementNS("http://www.w3.org/2000/svg", "use");
     use.setAttributeNS("http://www.w3.org/1999/xlink", "href", "#petal");
-    use.setAttribute("transform", `rotate(${(360 / numPetals) * i} 250 250) translate(250 150)`);
+   use.setAttribute("transform", `rotate(${(360 / numPetals) * i} 500 500) translate(500 200)`);
     use.style.strokeDasharray = "100";
     use.style.strokeDashoffset = "100";
     svg.appendChild(use);
