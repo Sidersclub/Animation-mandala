@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  background: radial-gradient(#111, #000);
+  color: white;
+  font-family: sans-serif;
+  overflow: hidden;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#mandala {
+  max-width: 90vmin;
+  max-height: 90vmin;
+  stroke-linecap: round;
+}
+
+#controls {
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+}
+
+button {
+  background: #333;
+  color: white;
+  border: 1px solid #666;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
